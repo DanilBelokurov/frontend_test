@@ -1,0 +1,54 @@
+.label-container{
+    display: flex;
+    align-items: center;
+}
+
+.messages-label {
+    color: white;
+    display: flex;
+    justify-content: start;
+    width: 240px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.btns-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-btns {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.header-btn {
+    border: 0px;
+    margin-right: 20px;
+    font-size: 8pt;
+    color: #12114a;
+    background-color: #00cf4d;
+    text-transform: uppercase;
+    width: 150px;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+
+.header-btn:not(:active) {
+    color: #12114a;
+    background-color: #00cf4d;
+}
+
+.header-btn:focus {
+    color: #00cf4d;
+    background: none;
+    border: 1px solid #00cf4d;
+}
+
+.header-btn:active {
+    background: none;
+    border: 1px solid #00cf4d;
+}

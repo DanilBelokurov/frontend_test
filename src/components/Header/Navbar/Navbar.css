@@ -1,0 +1,83 @@
+.navbar-brand {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-light .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256, 256, 256, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
+
+.headerMenu{
+    color:white !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+#collasible-nav-dropdown{
+    color:white !important;
+}
+
+.navbar-toggler{
+    color:white;
+}
+
+.leng-select{
+    margin: auto;
+    margin-right: 55px;
+    padding-right: 0px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+option{
+    width: auto;
+    margin: 0;
+}
+
+.form-control{
+    width: auto;
+}
+
+.userpic{
+    border: 2px solid gold;
+    margin-right: 7px;
+}
+
+.aboutUser{
+    width: 115px;
+    height: 70px;
+}
+
+#dropdown-basic-button{
+    padding: 0;
+    text-align: left;
+    color: white;
+    background-color: #12114a;
+    border: none;
+}
+
+.progress{
+    width: 80px !important;
+    height: 5px;
+}
+
+.progress-bar{
+    background-color: #00cf4d;
+}
+
+ul{
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.userStatus{
+    color:gold; /*Спросить у Суща о статусах. Написать скрипт установки цвета*/
+}

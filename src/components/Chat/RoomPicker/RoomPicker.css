@@ -1,0 +1,38 @@
+.roomPicker {
+    background: none;
+}
+
+.roomPicker-btns {
+    display: flex;
+    justify-items: start;
+}
+
+.roomPicker-btn {
+    background-color: #d5d5d5;
+    height: 45px;
+    border-radius: 8px 8px 0 0 !important;
+    margin-right: 2px;
+
+    width: 93px;
+    color: #253556;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+
+    border:none;
+    box-shadow: none !important;
+}
+
+.roomPicker-btn:hover{
+    background-color: #d5d5d5;
+}
+
+.roomPicker-btn:active, .roomPicker-btn:focus{
+    background-color: #00cf4d !important;
+}
+
+.friend-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
